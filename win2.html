@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="win2.css">
+    <title>Main Window</title>
+</head>
+<body>
+    <audio src="jingle-family-174542.mp3" id="a1"></audio>
+    <button id="btn1" onclick="playSound()" style="margin-right: 700px; margin-top: 250px;">Click Me</button>
+    <div class="main" id="d1">
+    <h1 id="mainH", style="text-align: left; color: goldenrod;"></h1>
+    <h1>MY MOST BELOVED ONE, I WISH YOU A GREAT AND BLISSFUL NEW YEAR!!!</h1>
+    <h1>MAY YOU AND YOUR FAMILY STAY BLSSED. MAY SUCCESS AND PROSPERITY ALWAYS FOLLOW YOU, THIS YEAR AND ALWAYS.</h1>
+    <h1>                                                Your Beloved One</h1>
+    <h1>                                                SURYARUP</h1>
+    </div>
+</body>
+<footer style="background-color: black;color: white;font-size: larger;">
+    Created By - Suryarup
+</footer>
+<script type="text/javascript">
+    document.getElementById("mainH").innerHTML=localStorage.getItem("username");
+    localStorage.clear();
+    function playSound()
+    {
+        document.getElementById("d1").style="visibility: visible; margin-top:-250px";
+        document.getElementById("btn1").style="visibility: hidden;";
+        document.getElementById("a1").play();
+    }
+</script>
+</html>

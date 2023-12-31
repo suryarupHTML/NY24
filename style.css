@@ -1,0 +1,39 @@
+body{
+    text-align: center;
+    border: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    font-size: 100px;
+    font-weight: bolder;
+    color: gold;
+}
+#btnMain{
+    background-color: red;
+    font-size: xx-large;
+    font-weight: bolder;
+    color: gold;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-width: 5px;
+    border-style: ridge;
+    border-color: silver;
+    box-shadow: 5px;
+    border-radius: 10px;
+}
+#btnMain:hover{
+    cursor: pointer;
+    color: white;
+    border-color: gold;
+}
+#username{
+    font-size: x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-width: 5px;
+    border-color: goldenrod;
+    border-style: ridge;
+    color: crimson;
+}
